@@ -40,6 +40,8 @@ namespace ImageSharp.TestGui
             imageList.Add(p);
             dd.Images.Add(p);
         }
+
+
         protected void RecurseDirectory(ref DirectoryDescriptor dd, System.IO.DirectoryInfo directory, int CurrentDepth)
         {
             if(ImagesFound > MaxImages)

@@ -332,10 +332,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedInfrastructure", "sha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharp.Tests.ProfilingSandbox", "tests\ImageSharp.Tests.ProfilingSandbox\ImageSharp.Tests.ProfilingSandbox.csproj", "{FC527290-2F22-432C-B77B-6E815726B02C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharp.TestGui", "tests\ImageSharp.TestGui\ImageSharp.TestGui.csproj", "{F38124F6-772D-4BAD-AB5C-28B7857ACDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharp.TestGui", "tests\ImageSharp.TestGui\ImageSharp.TestGui.csproj", "{F38124F6-772D-4BAD-AB5C-28B7857ACDCA}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		shared-infrastructure\src\SharedInfrastructure\SharedInfrastructure.projitems*{2aa31a1f-142c-43f4-8687-09abca4b3a26}*SharedItemsImports = 5
 		shared-infrastructure\src\SharedInfrastructure\SharedInfrastructure.projitems*{68a8cc40-6aed-4e96-b524-31b1158fdeea}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -433,6 +434,7 @@ Global
 		{C0D7754B-5277-438E-ABEB-2BA34401B5A7} = {1799C43E-5C54-4A8F-8D64-B1475241DB0D}
 		{68A8CC40-6AED-4E96-B524-31B1158FDEEA} = {815C0625-CD3D-440F-9F80-2D83856AB7AE}
 		{FC527290-2F22-432C-B77B-6E815726B02C} = {56801022-D71A-4FBE-BC5B-CBA08E2284EC}
+		{F38124F6-772D-4BAD-AB5C-28B7857ACDCA} = {56801022-D71A-4FBE-BC5B-CBA08E2284EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F8B9D1F-CD8B-4CC5-8216-D531E25BD795}
